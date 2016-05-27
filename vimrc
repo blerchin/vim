@@ -15,7 +15,6 @@ set pastetoggle=<F12>
 set title
 set ruler
 set showmode
-set shiftwidth=2
 set suffixes=.aux,.log,.dvi,.ps,.pdf,.bak,~,.o,.h,.info,.swp
 set textwidth=75
 set vb t_vb=
@@ -25,6 +24,8 @@ set wm=1
 "Turn on indenting
 filetype indent on
 set smartindent
+set shiftwidth=2
+set expandtab
 set tabstop=2
 
 "Format a paragraph
